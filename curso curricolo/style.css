@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 40px;
+  padding: 0;
+}
+
+.curriculo {
+  max-width: 800px;
+  margin: auto;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cabecalho img {
+  width: 120px;
+  height: 150px;
+  object-fit: cover;
+  border: 1px solid #000;
+  margin-right: 20px;
+}
+
+.dados h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.dados p {
+  margin: 4px 0;
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 20px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+}
+
+p, ul {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+ul {
+  padding-left: 20px;
+}
